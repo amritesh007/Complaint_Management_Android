@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/cmgmtf"
+    tools:context=".MainActivity">
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".MainActivity"
+   >
+
+    <ImageView
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:layout_marginTop="125dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/cl"
+        android:id="@+id/logo"
+        android:contentDescription="@string/l" />
+
+
+    <EditText
+        android:id="@+id/et1"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/logo"
+        android:layout_marginTop="55dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/edittext_bottom_line"
+        android:fontFamily="serif-monospace"
+        android:hint="@string/userid"
+        android:inputType="text"
+        android:textAlignment="textStart"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        />
+
+
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/et2"
+        android:layout_below="@id/et1"
+        android:layout_marginTop="15dp"
+        style="?android:attr/borderlessButtonStyle"
+        android:hint="@string/password"
+        android:inputType="numberPassword"
+        android:fontFamily="serif-monospace"
+        android:textStyle="bold"
+        android:textAlignment="textStart"
+        android:textSize="15dp"
+        android:background="@drawable/edittext_bottom_line"
+        />
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/b3"
+        android:layout_below="@id/et2"
+        android:layout_marginTop="50dp"
+        android:background="#0066ff"
+        android:textColor="#ffffff"
+        android:text="@string/login"
+        android:fontFamily="serif-monospace"
+        android:textStyle="bold"
+        android:textSize="20dp">
+    </Button>
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Register a Complaint"
+    android:textAllCaps="false"
+    android:id="@+id/b5"
+    android:fontFamily="serif-monospace"
+    android:textSize="20dp"
+    android:layout_centerHorizontal="true"
+
+    android:layout_below="@id/b3"
+    android:layout_marginTop="40dp">
+</TextView>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Click here"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/b4"
+        android:layout_below="@id/b5"
+        android:textColor="#0066ff"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="?android:attr/borderlessButtonStyle"
+        android:text="Update Status"
+        android:textColor="#0066ff"
+        android:layout_below="@id/b4"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:id="@+id/updates"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="info"
+        android:layout_below="@id/updates"
+        style="?android:attr/borderlessButtonStyle"
+        android:textColor="#0066ff"
+        android:id="@+id/info1"/>
+
+
+
+
+
+
+</RelativeLayout>
+</ScrollView>

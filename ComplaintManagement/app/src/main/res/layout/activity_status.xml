@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".status">
+    <ImageView
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:src="@drawable/cl"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/logo"
+        android:layout_marginTop="10dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Complaint Tracing "
+        android:textSize="35dp"
+        android:textStyle="bold"
+        android:id="@+id/txt1"
+        android:fontFamily="cursive"
+        android:textColor="#000000"
+        android:layout_below="@+id/logo"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt1"
+        android:text="Room Number : "
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/showrn"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtrn"
+        android:text=" "
+        android:layout_below="@id/txt1"
+        android:layout_marginTop="30dp"
+        android:textSize="20dp"
+        android:textStyle="italic"
+        android:layout_marginLeft="180dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txthn"
+        android:text=" "
+        android:layout_below="@id/showrn"
+        android:layout_marginTop="10dp"
+        android:textSize="20dp"
+        android:textStyle="italic"
+        android:layout_marginLeft="180dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtctype"
+        android:text=" "
+        android:layout_below="@id/showhname"
+        android:layout_marginTop="10dp"
+        android:textSize="20dp"
+        android:textStyle="italic"
+        android:layout_marginLeft="180dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtdes"
+        android:text=" "
+        android:layout_below="@id/showctype"
+        android:layout_marginTop="10dp"
+        android:textSize="20dp"
+        android:textStyle="italic"
+        android:layout_marginLeft="180dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtstatus"
+        android:text=" "
+        android:layout_below="@id/showdes"
+        android:layout_marginTop="10dp"
+        android:textSize="20dp"
+        android:textStyle="italic"
+        android:layout_marginLeft="180dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/showrn"
+        android:textStyle="bold"
+        android:layout_marginLeft="10dp"
+        android:textSize="20dp"
+        android:layout_marginTop="10dp"
+        android:text="Hostel Name :"
+        android:id="@+id/showhname"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:text="Complaint Type :"
+        android:layout_below="@id/showhname"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/showctype"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Description :"
+        android:layout_marginLeft="10dp"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/showctype"
+        android:id="@+id/showdes" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Status :"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/showdes"
+        android:id="@+id/showstatus"/>
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/showstatus"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:id="@+id/btnhome"
+        android:text="Home"
+        android:textStyle="bold"
+        android:background="#0066ff" />
+
+
+</RelativeLayout>

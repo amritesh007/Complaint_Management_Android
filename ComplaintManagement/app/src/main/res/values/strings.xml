@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">ComplaintManagement</string>
+    <string name="l">knit logo</string>
+    <string name="login">LOGIN</string>
+    <string name="userid">USER ID</string>
+    <string name="password">  PASSWORD</string>
+
+    <string-array name="Hostels">
+        <item></item>
+        <item>Aryabhatta Hostel</item>
+        <item>Vikram Sarabai Hostel</item>
+        <item>Raman Hostel</item>
+        <item>New V.S Hostel</item>
+        <item>Gargi Hostel</item>
+        <item>Old V.S Hostel</item>
+        <item>Khosla Hostel</item>
+        <item>Kalam Hostel</item>
+        <item>Ramanujam Hostel</item>
+        <item>Maitryi Hostel</item>
+
+    </string-array>
+    <string name="room">Enter Room No.</string>
+    <string name="complainttype">Enter Complaint Type!</string>
+    <string name="des">Description</string>
+    <string name="title_activity_officiallogin">officiallogin</string>
+    <string name="toastdis">Wrong User id or Password</string>
+    <string-array name="complainttype">
+        <item></item>
+        <item>Electricity Related</item>
+        <item>Plumber Related</item>
+    </string-array>
+    <string name="title_activity_status">status</string>
+</resources>

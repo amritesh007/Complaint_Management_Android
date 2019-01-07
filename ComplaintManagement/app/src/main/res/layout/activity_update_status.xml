@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UpdateStatus">
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="15dp"
+        android:src="@drawable/cl"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/l"/>
+
+    <EditText
+        android:id="@+id/et1"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/l"
+        android:layout_marginTop="55dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/edittext_bottom_line"
+        android:fontFamily="serif-monospace"
+        android:hint="@string/userid"
+        android:inputType="text"
+        android:textAlignment="textStart"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        />
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/et2"
+        android:layout_below="@id/et1"
+        android:layout_marginTop="15dp"
+        style="?android:attr/borderlessButtonStyle"
+        android:hint="@string/password"
+        android:inputType="numberPassword"
+        android:fontFamily="serif-monospace"
+        android:textStyle="bold"
+        android:textAlignment="textStart"
+        android:textSize="15dp"
+        android:background="@drawable/edittext_bottom_line"
+        />
+
+
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/lgin"
+        android:layout_below="@id/et2"
+        android:layout_marginTop="50dp"
+        android:background="#0066ff"
+        android:textColor="#ffffff"
+        android:text="@string/login"
+        android:fontFamily="serif-monospace"
+        android:textStyle="bold"
+        android:textSize="20dp">
+    </Button>
+
+
+
+</RelativeLayout>

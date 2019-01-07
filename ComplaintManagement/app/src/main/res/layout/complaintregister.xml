@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/lo"
+        android:layout_marginTop="40dp"
+        android:text="Select Hostel !"
+        android:textColor="#000000"
+        android:textSize="15dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/txt1"/>
+    <TextView
+        android:layout_width="300dp"
+        android:textColor="#000000"
+        android:textSize="15dp"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content"
+        android:text="Enter Room Number :"
+        android:layout_below="@id/spinner1"
+        android:layout_marginTop="20dp"
+        android:id="@+id/txt2"
+        />
+    <TextView
+        android:id="@+id/txt3"
+        android:textColor="#000000"
+        android:text="Select Category !"
+        android:layout_width="300dp"
+        android:textSize="15dp"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/rn"
+        android:layout_marginTop="20dp"/>
+    <TextView
+        android:textColor="#000000"
+        android:id="@+id/txt4"
+        android:text="Enter Complaint :"
+        android:textSize="15dp"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/spinner2"
+        android:layout_marginTop="20dp"/>
+    <ImageView
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:id="@+id/lo"
+        android:src="@drawable/cl"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        />
+    <Spinner
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:id="@+id/spinner1"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/edittext_bottom_line"
+        android:layout_below="@id/txt1">
+
+    </Spinner>
+
+    <EditText
+        android:paddingLeft="9dp"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/rn"
+        android:layout_below="@id/txt2"
+        style="?android:attr/borderlessButtonStyle"
+        android:inputType="text"
+        android:fontFamily="serif"
+        android:textStyle="normal"
+        android:textAlignment="textStart"
+        android:textSize="17dp"
+        android:background="@drawable/edittext_bottom_line"
+        />
+
+    <Spinner
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/spinner2"
+        android:layout_below="@id/txt3"
+        style="?android:attr/borderlessButtonStyle"
+        android:inputType="text"
+        android:fontFamily="serif"
+        android:textStyle="normal"
+        android:textSize="17dp"
+        android:background="@drawable/edittext_bottom_line"/>
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/txt4"
+        android:fontFamily="serif"
+        android:textStyle="normal"
+        android:textSize="17dp"
+        android:paddingLeft="9dp"
+        android:gravity="start"
+        android:id="@+id/description"
+        android:background="@drawable/edittext_bottom_line"/>
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/description"
+        android:layout_marginTop="20dp"
+        android:text="SUBMIT"
+        android:background="#0066ff"
+        android:textColor="#ffffff"
+        android:fontFamily="serif-monospace"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/sub"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GET THE STATUS OF YOUR COMPLAINT"
+        android:id="@+id/status"
+        android:textColor="#0066ff"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/sub"
+        android:layout_marginTop="20dp"
+        style="?android:attr/borderlessButtonStyle"
+        />
+
+
+
+</RelativeLayout>
+</ScrollView>

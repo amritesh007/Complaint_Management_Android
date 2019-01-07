@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FinalComplaint">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:src="@drawable/ty"
+        android:id="@+id/ty"
+        android:layout_below="@id/tnq1"
+        android:layout_marginTop="25dp"
+        />
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Thank You for your Cooperation"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/tnq"
+        android:textStyle="bold"
+        android:textSize="22dp"
+        android:textColor="#000000"/>
+    <TextView
+        android:layout_below="@id/tnq"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textColor="#000000"
+        android:id="@+id/tnq1"
+        android:text="We look forward for resolving your complaint as soon as possible"/>
+    <ImageView
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:src="@drawable/cl"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@id/trace"
+        android:layout_marginBottom="40dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/btn"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"
+        android:layout_marginBottom="20dp"
+        android:textSize="20dp"
+        android:text="WANT TO TRACE YOUR COMPLAINT"
+        android:id="@+id/trace"
+        android:textColor="#000000"/>
+    <Button
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_centerHorizontal="true"
+        android:text="CLICK HERE"
+        android:textColor="#0066ff"
+        android:id="@+id/btn"/>
+
+
+
+</RelativeLayout>

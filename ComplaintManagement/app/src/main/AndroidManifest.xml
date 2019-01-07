@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.android.complaintmanagement">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/cl"
+        android:label="Complaint Box"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ComplaintRegister"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Login"
+            android:screenOrientation="portrait" />
+        <activity android:name=".ComplaintStatus" />
+        <activity android:name=".FinalComplaint" />
+        <activity android:name=".status" />
+        <activity android:name=".Feedback" />
+        <activity android:name=".UpdateStatus" />
+        <activity android:name=".userlogin" />
+        <activity android:name=".statusupdate" />
+        <activity android:name=".infoactiv"></activity>
+    </application>
+
+</manifest>

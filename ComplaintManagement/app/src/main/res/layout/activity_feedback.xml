@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Feedback">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Your feedback is important. Please submit your FEEDBACK !"
+        android:layout_marginTop="10dp"
+        android:id="@+id/txt"
+        android:textSize="20dp"
+        android:textColor="#000000"/>
+    <EditText
+        android:layout_below="@+id/txt"
+        android:textAlignment="gravity"
+        android:gravity="start"
+        android:hint="Feedback"
+        android:layout_width="350dp"
+        android:layout_height="300dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/fdbck"
+        android:layout_marginTop="20dp" />
+
+    <Button
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/fdbck"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/submit"
+        android:text="SUBMIT"
+        android:textStyle="bold"
+        android:fontFamily="serif-monospace"
+        android:background="#0066ff"
+        android:textSize="20dp"
+        android:layout_centerHorizontal="true"
+        android:textColor="#ffffff"/>
+
+
+</RelativeLayout>

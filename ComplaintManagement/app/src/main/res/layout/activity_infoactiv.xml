@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".infoactiv">
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:text="DEVELOPED BY :"
+        android:textSize="40dp"
+        android:textColor="#0066ff"
+
+        android:fontFamily="cursive"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/txt"/>
+    <TextView
+    android:layout_below="@id/txt"
+    android:id="@+id/txt1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Amritesh Khare"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="20dp"
+    android:textSize="25dp"
+    android:fontFamily="serif"
+    android:textColor="#000000" />
+    <TextView
+        android:layout_below="@id/txt1"
+        android:id="@+id/txt2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kaushlendra Pratap Singh"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:textSize="25dp"
+
+        android:fontFamily="serif"
+        android:textColor="#000000" />
+    <TextView
+        android:layout_below="@id/txt2"
+        android:id="@+id/txt3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mridul Tiwari"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:textSize="25dp"
+        android:fontFamily="serif"
+        android:textColor="#000000" />
+
+
+</RelativeLayout>
